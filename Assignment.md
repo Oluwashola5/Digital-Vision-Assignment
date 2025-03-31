@@ -93,20 +93,19 @@ TEST CASE DESIGN
 |--------------|--------------------------------------------|-----------------------------------|-------------------------------------|-------------------------------------|------------------------------------------|
 |TC01		       |  Log in to the application.	              | User already has an account	      | - Launch https://repository.com/    | User successfully logs in.          | User should view user dashboard          |
 |              |                                            |                                   | - Click on Login	                  |                                     |                                          |
-|TC02		       | Navigate to "Create Repository" page.      |User is already logged in	        |- Click on “+” button at the top right of page
-|              |                                            |                                   |- Click on New Repository	          |Repository creation form is displayed.	User can successfully fill out all required fields
-|TC03		       |Enter valid repository name and description.	User is on Create Repository page	- Input new repo name	Name is accepted.	Name is shown with a green check-mark signifying acceptance
-|TC04		       |Click "Create Repository".	                  User has filled in new repo name	- Click create repository	Repository is successfully created.	User can see repository
-|TC05		       |Verify repository appears in list.	          User has created a new repository	- Navigate to repositories	Repository is listed correctly.	User can see repository in repository list
-|TC06		       |Navigate to repository issues tab.	          User has an existing repository	- Launch https://repository.com/user
-|- Click on repositories
-|- Selec a repository from repo list
-|- Clcik on issues tab
-|	Issues list is displayed.	User should view all available issues from list
-|TC07		       |Click "Create Issue".	                        User is on issues page	- Click on create issue	Issue creation form appears.	User can fill issue creation form
-|TC08		       |Enter issue title and description.	          User is on create issue form	- Fill out create issue form	Data is accepted.	User can fill form correctly
-|TC09	       	 |Click "Submit".	                              User has filled issue form	- Click on submit	Issue is successfully created.	User can view issue in issue list
-|TC10		       |Add a comment to the issue.	                  User has created an issue	- Click on add comment	Comment is added successfully.	User can view added comment
+|TC02		       | Navigate to "Create Repository" page.      |User is already logged in	        |- Click on “+” button at the top right of page |                           |                                          |
+|              |                                            |                                   |- Click on New Repository	          |Repository creation form is displayed.|	User can successfully fill out all required fields         |
+|TC03		       |Enter valid repository name and description.|	User is on Create Repository page	|- Input new repo name|	Name is accepted.	|Name is shown with a green check-mark signifying acceptance|
+|TC04		       |Click "Create Repository".	                | User has filled in new repo name	|- Click create repository	|Repository is successfully created.	|User can see repository|
+|TC05		       |Verify repository appears in list.	        |  User has created a new repository	|- Navigate to repositories	Repository is listed correctly.	User can see repository in repository list|
+|TC06		       |Navigate to repository issues tab.	        | User has an existing repository    |	- Launch https://repository.com/user   |  Issues list is displayed.    | User should view all available issues from list  |
+|              |                                            |                                     | - Click on repositories                |                                      |                                    |
+|              |                                            |                                     |  - Selec a repository from repo list    |                                      |                                    |
+|              |                                            |                                     |- Clcik on issues tab                  |                                         |                                |
+|TC07		       |Click "Create Issue".	                      |   User is on issues page	          |- Click on create issue	              | Issue creation form appears.	      |User can fill issue creation form    |
+|TC08		       |Enter issue title and description.	        |   User is on create issue form	    |- Fill out create issue form	          |Data is accepted.	                  |User can fill form correctly          |
+|TC09	       	 |Click "Submit".	                            |   User has filled issue form	      |- Click on submit	                     |Issue is successfully created.	    |User can view issue in issue list    |
+|TC10		       |Add a comment to the issue.	                |   User has created an issue         |	- Click on add comment	               |Comment is added successfully.	    |User can view added comment  |
 
 
 AUTOMATION APPROACH
