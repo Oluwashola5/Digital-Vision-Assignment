@@ -89,11 +89,12 @@ II.Development completed, unit tested with pass status and results shared to Tes
 III.Test application installed, configured and ready to use state
 
 TEST CASE DESIGN
-|Test Case ID  | Test Scenario	                      | Pre Conditions	                  | Steps	                              | Expected Results	                  | Post Conditions
-|TC01		       |  Log in to the application.	        | User already has an account	      | - Launch https://repository.com/
-|                                                                                                      - Click on Login	User successfully logs in.	User should view user dashboard
-|TC02		       | Navigate to "Create Repository" page.        User is already logged in	- Click on “+” button at the top right of page
-|                                                                                    |- Click on New Repository	Repository creation form is displayed.	User can successfully fill out all required fields
+|Test Case ID  | Test Scenario	                            | Pre Conditions	                  | Steps	                              | Expected Results	                  | Post Conditions                          |
+|--------------|--------------------------------------------|-----------------------------------|-------------------------------------|-------------------------------------|------------------------------------------|
+|TC01		       |  Log in to the application.	              | User already has an account	      | - Launch https://repository.com/    | User successfully logs in.          | User should view user dashboard          |
+|              |                                            |                                   | - Click on Login	                  |                                     |                                          |
+|TC02		       | Navigate to "Create Repository" page.      |User is already logged in	        |- Click on “+” button at the top right of page
+|              |                                            |                                   |- Click on New Repository	          |Repository creation form is displayed.	User can successfully fill out all required fields
 |TC03		       |Enter valid repository name and description.	User is on Create Repository page	- Input new repo name	Name is accepted.	Name is shown with a green check-mark signifying acceptance
 |TC04		       |Click "Create Repository".	                  User has filled in new repo name	- Click create repository	Repository is successfully created.	User can see repository
 |TC05		       |Verify repository appears in list.	          User has created a new repository	- Navigate to repositories	Repository is listed correctly.	User can see repository in repository list
